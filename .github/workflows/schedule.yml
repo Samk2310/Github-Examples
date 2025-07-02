@@ -12,7 +12,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Echo current time
-        run: Echo "The current server time is $(date)"
+        run: echo "The current server time is $(date)"
     
     
     
