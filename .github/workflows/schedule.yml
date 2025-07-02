@@ -2,10 +2,10 @@ name: Schedule
 
 on:
   schedule:
-    - cron:'*/2 * * * *'
+    - cron: '*/2 * * * *'
 
 jobs:
-  hello world:
+  hello_world:
     runs-on: ubuntu-latest
     permissions:
       issues: write
